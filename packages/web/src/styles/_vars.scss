@@ -1,0 +1,74 @@
+/* Page */
+$pagePaddingHorizontalVar: --page-padding-horizontal;
+$pagePaddingHorizontal: var($pagePaddingHorizontalVar, 2rem);
+
+$pageContentPaddingVerticalVar: --page-content-padding-vertical;
+$pageContentPaddingVertical: var($pageContentPaddingVerticalVar, 2rem);
+
+/* Border Radius */
+$borderRadiusXLVar: --border-radius-xl;
+$borderRadiusXL: var($borderRadiusXLVar, 1rem);
+
+$borderRadiusLVar: --border-radius-l;
+$borderRadiusL: var($borderRadiusLVar, 0.75rem);
+
+$borderRadiusMVar: --border-radius-m;
+$borderRadiusM: var($borderRadiusMVar, 0.5rem);
+
+$borderRadiusSVar: --border-radius-s;
+$borderRadiusS: var($borderRadiusSVar, 0.25rem);
+
+/* Input */
+$inputPaddingVerticalVar: --input-padding-vertical;
+$inputPaddingVertical: var($inputPaddingVerticalVar, 0.6rem);
+
+$inputPaddingHorizontalVar: --input-padding-horizontal;
+$inputPaddingHorizontal: var($inputPaddingHorizontalVar, 1.35rem);
+
+$inputBorderWidthVar: --input-border-width;
+$inputBorderWidth: var($inputBorderWidthVar, 2px);
+
+$inputBorderRadiusVar: --input-border-radius;
+$inputBorderRadius: var($inputBorderRadiusVar, $borderRadiusM);
+
+$inputDefaultMaxWidthVar: --input-default-max-width;
+$inputDefaultMaxWidth: var($inputDefaultMaxWidthVar, 20rem);
+
+/* Button */
+$buttonPaddingVerticalVar: --button-padding-vertical;
+$buttonPaddingVertical: var($buttonPaddingVerticalVar, $inputPaddingVertical);
+
+$buttonPaddingHorizontalVar: --button-padding-horizontal;
+$buttonPaddingHorizontal: var(
+  $buttonPaddingHorizontalVar,
+  $inputPaddingHorizontal
+);
+
+$buttonBorderRadiusVar: --button-border-radius;
+$buttonBorderRadius: var($buttonBorderRadiusVar, $inputBorderRadius);
+
+/* Transition */
+$transitionDurationDefaultVar: --transition-duration-default;
+$transitionDurationDefault: var($transitionDurationDefaultVar, 0.15s);
+
+$transitionDefaultVar: --transition-default;
+$transitionDefault: var(
+  $transitionDefaultVar,
+  all $transitionDurationDefault ease-in-out
+);
+
+$transitionSlowVar: --transition-slow;
+$transitionSlow: var($transitionSlowVar, all 0.3s ease-in-out);
+
+/* Nav Bar */
+$navBarVerticalPaddingVar: --nav-bar-vertical-padding;
+$navBarVerticalPadding: var($navBarVerticalPaddingVar, 1rem);
+
+$navBarHorizontalPaddingVar: --nav-bar-horizontal-padding;
+$navBarHorizontalPadding: var(
+  $navBarHorizontalPaddingVar,
+  $pagePaddingHorizontal
+);
+
+/* Aspect Ratio */
+$aspectRatioPadding1080: 56.25%;
